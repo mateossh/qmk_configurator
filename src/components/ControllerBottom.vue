@@ -430,7 +430,10 @@ export default {
       this.$router.push('/test');
     },
     keymapJSONHelp() {
-      window.open("https://docs.qmk.fm/#/configurator_troubleshooting", '_blank');
+      window.open(
+        'https://docs.qmk.fm/#/configurator_troubleshooting',
+        '_blank'
+      );
     }
   },
   data: () => {
